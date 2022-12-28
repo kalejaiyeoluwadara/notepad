@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky note</title>
+    <link rel="stylesheet" href="sticky.css">
+</head>
+<body>
+    <div class="box">
+        <div class="nav">
+            <div onclick="addMore()" class="add_icon">
+                <img  src="add_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="menu">
+                <img src="delete_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="apps_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="close_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <textarea  id="main_area" placeholder="Take a note..." spellcheck="false"></textarea>
+
+        </div>
+        <div class="footer">
+            <span style="font-weight: bold; font-size: 20px; font-family: monospace;">B</span>
+            <span style="font-style: italic;">I</span>
+            <span style="text-decoration: underline;">U</span>
+            <span style="text-decoration: line-through;">abc</span>
+            <span><img src="menu_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+        </div>
+    </div>
+  
+
+    <div class="box">
+        <div class="nav">
+            <div onclick="addMore()" class="add_icon">
+                <img  src="add_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="menu">
+                <img src="delete_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="apps_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="close_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <textarea  id="main_area" placeholder="Take a note..." spellcheck="false"></textarea>
+
+        </div>
+        <div class="footer">
+            <span style="font-weight: bold; font-size: 20px; font-family: monospace;">B</span>
+            <span style="font-style: italic;">I</span>
+            <span style="text-decoration: underline;">U</span>
+            <span style="text-decoration: line-through;">abc</span>
+            <span><img src="menu_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+        </div>
+    </div>
+  
+
+    <div class="box">
+        <div class="nav">
+            <div onclick="addMore()" class="add_icon">
+                <img  src="add_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="menu">
+                <img src="delete_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="apps_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <img src="close_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <textarea  id="main_area" placeholder="Take a note..." spellcheck="false"></textarea>
+
+        </div>
+        <div class="footer">
+            <span style="font-weight: bold; font-size: 20px; font-family: monospace;">B</span>
+            <span style="font-style: italic;">I</span>
+            <span style="text-decoration: underline;">U</span>
+            <span style="text-decoration: line-through;">abc</span>
+            <span><img src="menu_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+        </div>
+    </div>
+  
+
+    <button onclick="addMore()"> <img  src="add_FILL0_wght400_GRAD0_opsz48.png" alt=""></button>
+
+   
+</body>
+<script >
+ 
+    var container = document.getElementsByTagName('body');
+    function addMore(){
+        var node = document.createElement('div');
+        node.classList.add('box');
+      container.appendChild(node);
+    }
+ 
+   
+</script>
+</html>
